@@ -13,4 +13,5 @@ homepage = "https://github.com/cmake-wheel/cmeel-console-bridge"
 requires = ["cmeel[build]"]
 build-backend = "cmeel.build"
 source = "console_bridge"
+# ref. https://github.com/ros/console_bridge/pull/97
 run-tests = false
