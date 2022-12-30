@@ -9,9 +9,11 @@ license = "Zlib"
 [project.urls]
 homepage = "https://github.com/cmake-wheel/cmeel-console-bridge"
 
-[build-system]
-requires = ["cmeel[build]"]
-build-backend = "cmeel.build"
+[tool.cmeel]
 source = "console_bridge"
 # ref. https://github.com/ros/console_bridge/pull/97
 run-tests = false
+
+[build-system]
+requires = ["cmeel[build]"]
+build-backend = "cmeel.build"
