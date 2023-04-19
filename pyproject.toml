@@ -1,3 +1,7 @@
+[build-system]
+requires = ["cmeel[build]"]
+build-backend = "cmeel.build"
+
 [project]
 name = "cmeel-console-bridge"
 version = "1.0.2.1"
@@ -13,7 +17,3 @@ build-number = 2
 source = "console_bridge"
 # ref. https://github.com/ros/console_bridge/pull/97
 run-tests = false
-
-[build-system]
-requires = ["cmeel[build]"]
-build-backend = "cmeel.build"
