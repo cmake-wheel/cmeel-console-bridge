@@ -16,5 +16,3 @@ homepage = "https://github.com/cmake-wheel/cmeel-console-bridge"
 build-number = 3
 py3-none = true
 source = "console_bridge"
-# ref. https://github.com/ros/console_bridge/pull/97
-run-tests = false
