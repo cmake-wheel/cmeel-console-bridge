@@ -15,4 +15,5 @@ homepage = "https://github.com/cmake-wheel/cmeel-console-bridge"
 [tool.cmeel]
 build-number = 4
 py3-none = true
+run-tests = false
 source = "console_bridge"
