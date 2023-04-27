@@ -13,6 +13,6 @@ license = "Zlib"
 homepage = "https://github.com/cmake-wheel/cmeel-console-bridge"
 
 [tool.cmeel]
-build-number = 3
+build-number = 4
 py3-none = true
 source = "console_bridge"
