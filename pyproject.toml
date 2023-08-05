@@ -1,12 +1,12 @@
 [build-system]
-build-backend = "cmeel.build"
+build-backend = "cmeel"
 requires = ["cmeel[build]"]
 
 [project]
 description = "cmeel distribution for console-bridge, A ROS-independent package for logging that seamlessly pipes into rosconsole/rosout for ROS-dependent packages."
 license = "Zlib"
 name = "cmeel-console-bridge"
-requires-python = ">= 3.7"
+requires-python = ">= 3.8"
 version = "1.0.2.2"
 
 [project.urls]
