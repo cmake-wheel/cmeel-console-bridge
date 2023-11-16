@@ -17,6 +17,7 @@ build-number = 2
 has-sitelib = false
 run-tests = false
 source = "console_bridge"
+upstream-version = "1.0.2"
 
 [tool.tomlsort]
 all = true
