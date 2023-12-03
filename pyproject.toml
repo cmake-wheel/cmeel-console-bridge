@@ -11,6 +11,7 @@ version = "1.0.2.2"
 
 [project.urls]
 homepage = "https://github.com/cmake-wheel/cmeel-console-bridge"
+upstream = "https://github.com/ros/console_bridge"
 
 [tool.cmeel]
 build-number = 3
